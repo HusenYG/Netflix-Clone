@@ -211,6 +211,7 @@ img{
   width: 100%;
   border-collapse: collapse;
   border-spacing: 0;
+	overflow-x: auto;
 }
 
 .table thead th{
@@ -452,7 +453,7 @@ img{
 
 @media (max-width: 320px){
   .container{
-    max-width: 100%;
+    max-width: 95%;
     padding: 0;
   }
 
